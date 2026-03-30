@@ -6,7 +6,7 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GeminiService {
   // Gemini API configuration
-  static const String _apiKey = 'AIzaSyBwiKmjcMdchVlDRNhpewaTdVYXmDEV7AQ'; // Your Gemini API key (get from makersuite.google.com)
+  static const String _apiKey = 'Your_API_Key'; // Your Gemini API key (get from makersuite.google.com)
   static const String _modelName = 'gemini-2.5-flash'; // Fast Gemini model for analysis
 
   late final GenerativeModel _model; // Initialized Gemini model instance
